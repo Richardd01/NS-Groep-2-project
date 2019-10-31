@@ -23,27 +23,21 @@ class Twitter():
         """
         Plaatst tweet op twitter pagina (https://twitter.com/ngroep2)
         :param text: str
+        :return: request
         """
         r = self.api.request('statuses/update', {'status': text})
         return r
-        """
-        if r.status_code != 200:
-            error_message = json.loads(r.text)['errors'][0]['message']
-            #TODO Popup met error bericht
-            print(error_message)
-        """
+
 
     def get_tweets_from_timeline(self, count):
         """
         Haalt 'count' tweets van onze timeline
         :param count: int
-        :return: list(string)
+        :return: request
         """
         data = self.api.request('statuses/home_timeline', {'count':count})
-        tweets = []
-        for tweet in data:
-            tweets.append(tweet['text'])
-        return tweets
+        return data
+        
 
 
 

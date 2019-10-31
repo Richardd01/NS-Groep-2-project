@@ -37,7 +37,7 @@ class TwitterIO():
             print('Bestand niet gevonden.')
         except Exception as e:
             print('Er is iets fout gegaan bij het ophalen van alle tweets uit een bestand')
-            print(e)
+            print(e.message)
     
     @staticmethod
     def add_tweet_to_file(file_location, tweet):
@@ -55,7 +55,7 @@ class TwitterIO():
             print('Bestand niet gevonden.')
         except Exception as e:
             print('Er is iets fout gegaan bij het toevoegen van een tweet aan een bestand')
-            print(e)
+            print(e.message)
 
     @staticmethod
     def remove_tweet_from_file(file_location, id):
@@ -73,4 +73,4 @@ class TwitterIO():
             print('Bestand niet gevonden.')
         except Exception as e:
             print('Er is iets fout gegaan bij het verwijderen van een tweet uit een bestand')
-            print(e)
+            print(e.message)

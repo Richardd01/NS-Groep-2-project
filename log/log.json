@@ -1,57 +1,22 @@
 [
     {
-        "id": "0f0e8d06-412c-48a2-b40b-28e665500425",
-        "datetime": "10/30/2019,15:39:28",
-        "message": "Dit is mijn tweede tweet!!"
+        "id": "d163d22c-2485-482b-b818-07866d9d8128",
+        "datetime": "10/31/2019,19:38:36",
+        "message": "Deze ga ik wijgeren."
     },
     {
-        "id": "b6ee65f0-44ad-4832-9701-30a96e62569c",
-        "datetime": "10/30/2019,15:39:28",
-        "message": "Dit is mijn eerste tweet!!"
+        "id": "7b768db8-aa12-4d44-9454-283d41434354",
+        "datetime": "10/31/2019,19:41:29",
+        "message": "Deze tweet ga ik ook weigeren"
     },
     {
-        "id": "3ee99c97-64a6-4914-b926-2fd8a5902732",
-        "datetime": "10/31/2019,12:55:12",
-        "message": "Dit is mijn tweede tweet...."
+        "id": "cbf785b3-9b8d-4e2a-8f69-cf890e0ba56c",
+        "datetime": "10/31/2019,19:41:58",
+        "message": "Dit is een andere tweet"
     },
     {
-        "id": "c12d092c-9164-48fe-b0de-65cedd2a4867",
-        "datetime": "10/31/2019,12:56:25",
-        "message": "Tweet2"
-    },
-    {
-        "id": "c2a13bfd-0fa6-4cd5-929c-f593ff460467",
-        "datetime": "10/31/2019,12:56:22",
-        "message": "Tweet1"
-    },
-    {
-        "id": "5a465266-acc1-4313-a8bd-cb30039dfef3",
-        "datetime": "10/31/2019,13:02:48",
-        "message": "Tweet.2"
-    },
-    {
-        "id": "5a465266-acc1-4313-a8bd-cb30039dfef3",
-        "datetime": "10/31/2019,13:02:48",
-        "message": "Tweet.2"
-    },
-    {
-        "id": "efa2b3bc-cdb3-483b-8b2e-151118deff99",
-        "datetime": "10/31/2019,13:01:35",
-        "message": "Tweet.1"
-    },
-    {
-        "id": "45e28362-01b9-4daa-8a5f-c3ef0ff5585f",
-        "datetime": "10/31/2019,13:41:54",
-        "message": "Tweettt2"
-    },
-    {
-        "id": "77cfaa47-1727-4409-999d-3c21e92040b9",
-        "datetime": "10/31/2019,13:46:04",
-        "message": "Tweettt1"
-    },
-    {
-        "id": "eeb37245-aeca-4736-a7df-749c19b656bb",
-        "datetime": "10/31/2019,13:48:40",
-        "message": "Nieuwe tweet 2"
+        "id": "7d4cc58b-deca-4e2e-ab22-bc7e3ab45303",
+        "datetime": "10/31/2019,19:47:18",
+        "message": "Dit is een tweet"
     }
 ]

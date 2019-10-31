@@ -6,13 +6,25 @@ class Tweet():
 
 
     def getId(self):
+        """
+        Geeft uuid van tweet terug
+        :return: str
+        """
         return self.id
 
 
     def getDatetime(self):
+        """
+        Geeft datum en tijd terug
+        :return: str
+        """
         return self.datetime
 
     
     def getText(self):
+        """
+        Geeft bericht terug
+        :return: str
+        """
         return self.text
     
