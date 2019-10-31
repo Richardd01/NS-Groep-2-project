@@ -25,7 +25,7 @@ class TwitterIO():
         """
         Haalt tweets op uit bestand en geeft terug als json
         :param file_location: str
-        :return: dict
+        :return: List(Tweet)
         """
         try:
             tweets = []

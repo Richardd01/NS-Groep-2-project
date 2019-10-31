@@ -25,10 +25,13 @@ class Twitter():
         :param text: str
         """
         r = self.api.request('statuses/update', {'status': text})
+        return r
+        """
         if r.status_code != 200:
             error_message = json.loads(r.text)['errors'][0]['message']
-            #POPUP met error bericht
+            #TODO Popup met error bericht
             print(error_message)
+        """
 
     def get_tweets_from_timeline(self, count):
         """
