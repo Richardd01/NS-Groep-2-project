@@ -4,7 +4,7 @@ import sys
 import json
 sys.path.append('../')
 from twitterio import TwitterIO
-from twitter import Twitter
+from controller.twitter import Twitter
 
 class ModerateTweetsWindow(tk.Frame):
     def __init__(self, master):

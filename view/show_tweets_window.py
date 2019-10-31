@@ -3,7 +3,7 @@ from tkinter.messagebox import showinfo
 import sys
 import json
 sys.path.append('../')
-from twitter import Twitter
+from controller.twitter import Twitter
 
 class ShowTweetsWindow(tk.Frame):
     def __init__(self, master):
